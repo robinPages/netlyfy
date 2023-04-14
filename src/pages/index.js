@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 
 const inter = Inter({ subsets: ['latin'] });
 
-const link = 'http://localhost:3000/api/test';
+const link = 'https://zippy-unicorn-98aa38.netlify.app/api/test';
 
 export default function Home() {
    const [users, setUsers] = useState([]);
